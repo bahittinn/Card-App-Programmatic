@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64C56BEB2A68577C00179855 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56BEA2A68577C00179855 /* CWButton.swift */; };
+		64C56BF02A6862C700179855 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56BEF2A6862C700179855 /* RulesVC.swift */; };
 		64F46ACC2A67BB240058DFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */; };
 		64F46ACE2A67BB240058DFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */; };
-		64F46AD02A67BB240058DFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACF2A67BB240058DFA9 /* ViewController.swift */; };
-		64F46AD32A67BB240058DFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F46AD12A67BB240058DFA9 /* Main.storyboard */; };
+		64F46AD02A67BB240058DFA9 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACF2A67BB240058DFA9 /* CardSelectionVC.swift */; };
 		64F46AD52A67BB250058DFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F46AD42A67BB250058DFA9 /* Assets.xcassets */; };
 		64F46AD82A67BB250058DFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F46AD62A67BB250058DFA9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64C56BEA2A68577C00179855 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		64C56BEF2A6862C700179855 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 		64F46AC82A67BB240058DFA9 /* CardApp-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardApp-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64F46ACF2A67BB240058DFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64F46AD22A67BB240058DFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F46ACF2A67BB240058DFA9 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		64F46AD42A67BB250058DFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F46AD72A67BB250058DFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F46AD92A67BB250058DFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64C56BE92A6854F100179855 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */,
+				64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */,
+				64F46AD42A67BB250058DFA9 /* Assets.xcassets */,
+				64F46AD62A67BB250058DFA9 /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		64C56BEC2A68628400179855 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64F46ACF2A67BB240058DFA9 /* CardSelectionVC.swift */,
+				64C56BEF2A6862C700179855 /* RulesVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		64C56BED2A68629900179855 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				64C56BEA2A68577C00179855 /* CWButton.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		64C56BEE2A6862AB00179855 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		64F46ABF2A67BB240058DFA9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +93,10 @@
 		64F46ACA2A67BB240058DFA9 /* CardApp-Programmatic */ = {
 			isa = PBXGroup;
 			children = (
-				64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */,
-				64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */,
-				64F46ACF2A67BB240058DFA9 /* ViewController.swift */,
-				64F46AD12A67BB240058DFA9 /* Main.storyboard */,
-				64F46AD42A67BB250058DFA9 /* Assets.xcassets */,
-				64F46AD62A67BB250058DFA9 /* LaunchScreen.storyboard */,
+				64C56BEE2A6862AB00179855 /* Models */,
+				64C56BED2A68629900179855 /* Features */,
+				64C56BEC2A68628400179855 /* Controllers */,
+				64C56BE92A6854F100179855 /* Supports */,
 				64F46AD92A67BB250058DFA9 /* Info.plist */,
 			);
 			path = "CardApp-Programmatic";
@@ -127,7 +162,6 @@
 			files = (
 				64F46AD82A67BB250058DFA9 /* LaunchScreen.storyboard in Resources */,
 				64F46AD52A67BB250058DFA9 /* Assets.xcassets in Resources */,
-				64F46AD32A67BB240058DFA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F46AD02A67BB240058DFA9 /* ViewController.swift in Sources */,
+				64F46AD02A67BB240058DFA9 /* CardSelectionVC.swift in Sources */,
+				64C56BF02A6862C700179855 /* RulesVC.swift in Sources */,
 				64F46ACC2A67BB240058DFA9 /* AppDelegate.swift in Sources */,
 				64F46ACE2A67BB240058DFA9 /* SceneDelegate.swift in Sources */,
+				64C56BEB2A68577C00179855 /* CWButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		64F46AD12A67BB240058DFA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64F46AD22A67BB240058DFA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64F46AD62A67BB250058DFA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +319,6 @@
 				INFOPLIST_FILE = "CardApp-Programmatic/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +345,6 @@
 				INFOPLIST_FILE = "CardApp-Programmatic/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
