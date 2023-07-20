@@ -12,6 +12,7 @@ import UIKit
 
 struct Card {
     static var allValues = [
+        //MARK: - IMAGES
         UIImage(named: "2H")!,
         UIImage(named: "3H")!,
         UIImage(named: "4H")!,
@@ -39,7 +40,5 @@ struct Card {
         UIImage(named: "QS")!,
         UIImage(named: "KS")!,
         UIImage(named: "AS")!
-        
-        
     ]
 }
