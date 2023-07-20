@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		64C56BEB2A68577C00179855 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56BEA2A68577C00179855 /* CWButton.swift */; };
 		64C56BF02A6862C700179855 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56BEF2A6862C700179855 /* RulesVC.swift */; };
+		64DC8D482A686F4B006B79D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC8D472A686F4B006B79D0 /* Card.swift */; };
 		64F46ACC2A67BB240058DFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */; };
 		64F46ACE2A67BB240058DFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */; };
 		64F46AD02A67BB240058DFA9 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F46ACF2A67BB240058DFA9 /* CardSelectionVC.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		64C56BEA2A68577C00179855 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
 		64C56BEF2A6862C700179855 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		64DC8D472A686F4B006B79D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		64F46AC82A67BB240058DFA9 /* CardApp-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardApp-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F46ACB2A67BB240058DFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F46ACD2A67BB240058DFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		64C56BEE2A6862AB00179855 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				64DC8D472A686F4B006B79D0 /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F46AD02A67BB240058DFA9 /* CardSelectionVC.swift in Sources */,
+				64DC8D482A686F4B006B79D0 /* Card.swift in Sources */,
 				64C56BF02A6862C700179855 /* RulesVC.swift in Sources */,
 				64F46ACC2A67BB240058DFA9 /* AppDelegate.swift in Sources */,
 				64F46ACE2A67BB240058DFA9 /* SceneDelegate.swift in Sources */,
