@@ -19,11 +19,13 @@ class RulesVC: UIViewController {
         configureUI()
     }
     
+    //MARK: - Configure UI
     func configureUI() {
         configureRulesLabel()
         configureTitleLabel()
         configureExerciseLabel()
     }
+    //MARK: - Rules Label Constraints
     func configureRulesLabel() {
         view.addSubview(rulesLabel)
         rulesLabel.text = "Rules"
@@ -38,6 +40,7 @@ class RulesVC: UIViewController {
         ])
     }
     
+    //MARK: - Rules Title Constraints
     func configureTitleLabel() {
         view.addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -54,6 +57,7 @@ class RulesVC: UIViewController {
         ])
     }
     
+    //MARK: - Rules Exercise Constraints
     func configureExerciseLabel() {
         view.addSubview(exerciseLabel)
         exerciseLabel.translatesAutoresizingMaskIntoConstraints = false
